@@ -1,0 +1,13 @@
+.todoList {
+    
+    width: 100%;
+}
+.todoListItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 2px;
+}
+.todoListItem:nth-child(even) {
+    background-color: antiquewhite;
+}
